@@ -1,0 +1,168 @@
+/*
+Theme Name: Dentistry Clinic
+Theme URI: https://www.ovationthemes.com/wordpress/free-dentistry-wordpress-theme/
+Author: pewilliams
+Author URI: https://www.ovationthemes.com/
+Description: When it comes to choosing a WordPress theme for your dental clinic, you want to make sure you select a theme that is social media and SEO friendly, has optimized codes, and has a fast load page time. Dentistry Clinic WordPress Theme is all you want. This theme is created with dentistry clinics keeping in mind. It also includes everything you need to get your clinic up and running smoothly. From online appointment scheduling to a dental database, this theme has everything you need to create a website that is user-friendly and informative. And, because we know that page speed is important to you and your users, we have made sure that our theme is optimized for fast loading. This theme is best suited for medical stores, dental health services, drug stores, excellent for a dentist, hospital, medicine, doctors, dental clinic, photography, blog, newspaper medical facilities, pediatric and overall medial websites, doctors, surgeons, Finishing & Polishing, Glass Ionomer Restoratives, responsive and can cater to medical, health care, hospital, dentists, clinics, lab, therapy, healing, pharma, nursing, dispensary and surgery websites.
+Version: 2.1
+Requires PHP: 5.6
+Tested up to: 6.2
+Requires at least: 5.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: dentistry-clinic
+Template: dental-insight
+Tags: one-column, two-columns, right-sidebar, left-sidebar, grid-layout, full-width-template, sticky-post, block-styles, custom-colors, custom-background, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, threaded-comments, wide-blocks, post-formats, blog, food-and-drink, photography
+
+Dentistry Clinic WordPress Theme, Copyright 2022 pewilliams
+Dentistry Clinic is distributed under the terms of the GNU GPL
+
+Dentistry Clinic WordPress Theme is child theme of Dental Insight WordPress Theme, Copyright 2022 pewilliams
+Dental Insight WordPress Theme is distributed under the terms of the GNU GPL
+*/
+
+.top_header strong,h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Color Changes*/
+
+body {
+    color: #959595;
+}
+
+button, input[type="button"], input[type="submit"],#sidebar .tagcloud a:hover, .site-footer .tagcloud a:hover,.site-footer .search-form .search-submit,.gb_nav_menu ul li a:active, .gb_nav_menu ul li a:hover,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,.gb_nav_menu ul ul,nav.woocommerce-MyAccount-navigation ul li,.top_bar, .top_header,.prev.page-numbers, .next.page-numbers,.page-numbers.current,a.more-link,.site-info,.home-btn a, .box-button a,#slider .carousel-control-next-icon:hover, #slider .carousel-control-prev-icon:hover,.wp-block-button .wp-block-button__link,button.search-submit,.toggle-menu button{
+    background: #00bcd5;
+}
+a,#Category-section .postbox.smallpostimage:hover h3 a,#sidebar caption,#sidebar th,#sidebar td,#sidebar select,#slider .carousel-caption h2,.home-btn a:hover{
+    color: #00bcd5;
+}
+.woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price{
+    color: #00bcd5 !important;
+}
+.wp-block-quote:not(.is-large):not(.is-style-large), blockquote,.wp-block-quote:not(.is-large):not(.is-style-large),.box:hover{
+    border-color: #00bcd5;
+}
+
+.copyright,.scrollup.is-active:hover, .scrollup.is-active:focus,#slider .carousel-control-next-icon, #slider .carousel-control-prev-icon,.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, a.added_to_cart.wc-forward:hover,button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="submit"]:hover, input[type="submit"]:focus{
+    background: #343434;
+}
+h1,h2,h3,h4,h5,h6,.logo h1 a,.logo h1, .site-title, .site-title a,#Category-section h3 a,#sidebar h3,.logo p,.gb_nav_menu li a,#sidebar .tagcloud a, .site-footer .tagcloud a,.box:hover h4,.box:hover p,.box h4,a:hover, a:active{
+    color: #343434;
+}
+#sidebar h3{
+    border-color: #343434;
+}
+
+.top_header, .top_bar a, .top_bar span, .top_header strong, .top_bar, #slider p,.info-box i, .top_bar i,.box-button a,.site-info{
+    color: #fff;
+}
+
+#gb_responsive {
+    justify-content: flex-end;
+}
+#slider .carousel-caption {
+    right: 45%;
+}
+#slider .carousel-caption h2 {
+    font-weight: 500;
+}
+
+.box {
+    border: solid 2px #dfdfdf;
+    box-shadow: none;
+    margin-top: 5em;
+}
+.box:hover{
+    background: #aceefe;
+}
+.img-box {
+    margin-top: -100px;
+}
+.box h4 {
+    font-weight: 500;
+}
+.load :first-child{background:#00bcd5;animation-delay:-1.5s}
+.load :nth-child(2){background:#02314f;animation-delay:-1s}
+.load :nth-child(3){background:#00bcd5;animation-delay:-0.5s}
+.load :last-child{background:#02314f}
+
+@media screen and (max-width: 720px) and (min-width: 320px){
+    #slider .carousel-caption {
+        right: 10%;
+    }
+    .top_header,#colophon{
+      text-align: center;
+    }
+}
+@media screen and (max-width: 999px) and (min-width: 768px){
+    #slider .carousel-caption {
+        right: 15%;
+    }
+}
+/*scrollup*/
+.scrollup{
+    background:#00bcd5!important;
+}
+/*post-format*/
+.entry-content .quotepost a{
+    text-decoration: none;
+    color: #00bcd5;
+}
+.entry-content .quotepost p{
+    color: #00bcd5;
+}
+#Category-section pre.wp-block-verse{
+    border: 5px solid black!important;
+    color: #00bcd5;   
+}
+/* Accessibility */
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+  outline: 0;
+}
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+    border: 1px solid #323232;
+    padding: 2px;
+}
+/*hover effects*/
+.top_bar a:hover,.top_bar span:hover,.top_header strong:hover,.info-box i:hover,.top_bar i:hover {
+    color: #343434;
+}
